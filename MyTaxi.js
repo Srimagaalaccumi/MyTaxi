@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const { MongoClient, ObjectId } = require('mongodb');
-const uri = "mongodb+srv://MyTaxi:Abibobi8@cluster0.ysxrzqh.mongodb.net/MyTaxi?retryWrites=true&w=majority";
+const uri ="mongodb+srv://MyTaxi:Abibobi8@cluster0.mhxj20w.mongodb.net/MyTaxi?retryWrites=true&w=majority";
 require('dotenv').config();
 
 const app = express();
